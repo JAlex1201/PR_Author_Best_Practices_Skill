@@ -1,6 +1,16 @@
 ---
 name: pr-best-practices
-description: Author strong pull requests, covering both the title and description text and the habits that make a PR easy to review, such as being your own first reviewer, keeping the change small and single purpose, letting CI pass first, and responding well to review comments. Use it whenever someone is opening, drafting, splitting, or polishing a pull request or merge request, writing a PR title or description, wondering whether a PR is too big, addressing review feedback, or summarizing changes for a reviewer. It also fits right after a push when the next step is a PR, and works across GitHub, GitLab, and Bitbucket.
+version: 1.0.0
+description: >
+  Use this skill to author strong pull requests across GitHub, GitLab, and Bitbucket.
+  Activate when a user is opening, drafting, splitting, or polishing a pull request or
+  merge request; writing a PR title or description; wondering whether a PR is too big
+  to review; addressing or responding to review feedback; or summarizing changes for a
+  reviewer. Also activate right after a push when the next natural step is opening a PR.
+  Do not use this skill to review someone else's code (use pr-review for that), to run
+  a pre-submit checklist before opening a PR (use pr-presubmit for that), or to manage
+  CI/CD pipelines or deployment workflows.
+allowed-tools: []
 ---
 
 # Authoring Pull Requests
@@ -121,7 +131,7 @@ The two-part structure is the default, not a cage:
   `## Screenshots`, `## Out of scope`. Each should give the reviewer something the diff
   can't.
 
-See `references/examples.md` for worked before/after examples across PR sizes.
+See `.github/skills/pr-best-practices/references/examples.md` for worked before/after examples across PR sizes.
 
 ## Choosing reviewers
 
