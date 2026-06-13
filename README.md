@@ -6,6 +6,8 @@ A pull request is two things at once: a message to a busy reviewer, and the star
 
 Works across GitHub, GitLab, and Bitbucket. Applies to any language or stack.
 
+![pr-best-practices skill in action](pr-best-practices.gif)
+
 ## What this skill does
 
 This skill helps you or Claude produce pull requests that reviewers can actually act on. It covers:
